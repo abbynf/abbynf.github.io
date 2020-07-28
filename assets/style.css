@@ -22,13 +22,18 @@ body {
   }
   
 
+  body {
+    font-family: 'Raleway@weight:600', sans-serif;
+  }
+
 
 
 
 h1 {
-    margin-top: 25%;
+    text-align: center;
     font-size: 4rem;
     color: #f7f7f7;
+    margin-top: 10%;
 }
 
 h2 {
