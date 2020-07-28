@@ -1,4 +1,4 @@
-body.main {
+body {
     /* Location of the image */
     background-image: url(./simon-berger-twukN12EN7c-unsplash.png);
     
@@ -47,4 +47,3 @@ h3 {
     margin-top: 30%;
     color: #f7f7f7;
 }
-
