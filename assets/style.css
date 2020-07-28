@@ -24,6 +24,7 @@ body {
 
   body {
     font-family: 'Raleway@weight:600', sans-serif;
+    box-sizing: border-box;
   }
 
 
@@ -46,4 +47,16 @@ h3 {
     font-family: 'Dancing Script', sans-serif;
     margin-top: 30%;
     color: #f7f7f7;
+}
+
+.card-img-top {
+    padding: 10px;
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1.portHead {
+    font-family:'Raleway@weight:700', sans-serif;
 }
