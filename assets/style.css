@@ -34,6 +34,7 @@ h1 {
     text-align: center;
     font-size: 4rem;
     color: #f7f7f7;
+    text-shadow: 2px 2px black;
     margin-top: 10%;
 }
 
@@ -41,6 +42,7 @@ h2 {
     color: #f7f7f7;
     font-size: 2rem;
     margin-top: 5%;
+    text-shadow: 2px 2px black;
 }
 
 h3 {
@@ -61,6 +63,7 @@ h1.portHead {
     font-family:'Raleway@weight:700', sans-serif;
     margin-top: 10%;
     margin-bottom: 50px;
+    font-size: 5rem;
 }
 
 h4, p, a {
