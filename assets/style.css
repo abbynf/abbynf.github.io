@@ -59,4 +59,10 @@ h5 {
 
 h1.portHead {
     font-family:'Raleway@weight:700', sans-serif;
+    margin-top: 10%;
+    margin-bottom: 50px;
+}
+
+p, a {
+    font-family: 'Roboto', sans-serif;
 }
