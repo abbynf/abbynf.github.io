@@ -1,6 +1,6 @@
 body {
     /* Location of the image */
-    background-image: url(./simon-berger-twukN12EN7c-unsplash.png);
+    background-image: url(./changed_simon-berger-twukN12EN7c-unsplash.png);
     
     /* Background image is centered vertically and horizontally at all times */
     background-position: center center;
@@ -32,15 +32,18 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 4rem;
+    font-size: 4em;
     color: #f7f7f7;
     text-shadow: 2px 2px black;
-    margin-top: 10%;
+}
+
+.top {
+    padding-top: 10%;
 }
 
 h2 {
     color: #f7f7f7;
-    font-size: 2rem;
+    font-size: 2em;
     margin-top: 5%;
     text-shadow: 2px 2px black;
 }
@@ -76,4 +79,17 @@ h4, p, a {
 
 .black {
     color: black;
+}
+
+.name {
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 668px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .top {
+        padding-top: 25%;
+    }
 }
