@@ -72,6 +72,7 @@ h1.portHead {
 
 h4, p, a {
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 .center {
@@ -84,6 +85,11 @@ h4, p, a {
 
 .name {
     font-size: 1.5em;
+}
+
+i {
+    color: white;
+    text-shadow: 2px 2px black;
 }
 
 @media only screen and (max-width: 668px) {
