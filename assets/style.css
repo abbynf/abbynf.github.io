@@ -92,4 +92,8 @@ h4, p, a {
     .top {
         padding-top: 25%;
     }
+    h2 {
+        margin: 50px;
+        text-align: center;
+    }
 }
