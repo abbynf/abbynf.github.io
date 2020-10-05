@@ -10,7 +10,7 @@ body {
     background-color: black;
   }
   
-  html, body {
+html, body {
     max-width: 100%;
     overflow-x: hidden;
   }
@@ -65,14 +65,20 @@ h4, p, a {
     font-size: 1.5em;
 }
 
+.bio {
+    font-size: 1.25em;
+}
 
+.bioHead {
+    text-shadow: none;
+}
 
 i {
     text-shadow: 2px 2px black;
 }
 
 .opaque {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.8);
     padding: 30px;
 }
 
