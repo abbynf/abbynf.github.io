@@ -10,6 +10,10 @@ body {
     background-color: black;
   }
   
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 
 body {
     font-family: 'Raleway@weight:600', sans-serif;
