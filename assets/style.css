@@ -80,6 +80,14 @@ h4, p, a {
     color: white;
 }
 
+.fa:hover {
+    color: #cecece
+}
+
+.fa:active {
+    text-shadow: none;
+}
+
 .opaque {
     background: rgba(255, 255, 255, 0.8);
     padding: 30px;
