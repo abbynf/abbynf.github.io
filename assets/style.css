@@ -74,8 +74,9 @@ h4, p, a {
     text-shadow: none;
 }
 
-i {
+.fa {
     text-shadow: 2px 2px black;
+    font-size: 100px
 }
 
 .opaque {
