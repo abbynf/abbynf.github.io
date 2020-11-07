@@ -111,7 +111,7 @@ h4, p, a {
   }
 
 .headshot {
-    max-width: 500px;
+    max-width: 315px;
 }
 
 @media only screen and (max-width: 668px) {
