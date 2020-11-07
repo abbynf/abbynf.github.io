@@ -38,6 +38,10 @@ As soon as I learn Sass, I can add more sizes to by adding entries to the Sass m
     padding-top: 10%;
 }
 
+.card {
+    background-color: darkgray;
+}
+
 .tagline {
     font-family: 'Dancing Script', sans-serif;
     /* My chosen margin is so large that Bootstrap's default classes aren't large enough.
