@@ -40,6 +40,7 @@ As soon as I learn Sass, I can add more sizes to by adding entries to the Sass m
 
 .card {
     background-color: darkgray;
+    margin-bottom: 20px;
 }
 
 .tagline {
@@ -57,7 +58,7 @@ h1.portHead {
     font-family:'Raleway@weight:700', sans-serif;
     /* My chosen margin is so large that Bootstrap's default classes aren't large enough.
     As soon as I learn Sass, I can add more sizes to by adding entries to the Sass map variable */
-    margin-top: 10%;
+    margin-top: 20%;
     margin-bottom: 50px;
     font-size: 5rem;
 }
@@ -112,6 +113,11 @@ h4, p, a {
 
 .headshot {
     max-width: 315px;
+}
+
+.portfolioButton {
+    background-color: #303048;
+    color: white;
 }
 
 @media only screen and (max-width: 668px) {
