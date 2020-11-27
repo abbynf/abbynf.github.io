@@ -124,6 +124,10 @@ h4, p, a {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.card-img-top {
+    border: gray solid 4px;
+}
+
 @media only screen and (max-width: 668px) {
     h1 {
         font-size: 2rem;
