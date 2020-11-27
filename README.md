@@ -22,3 +22,4 @@ Contact me at abbynfrandsen@gmail.com
 - Background photo: [Simon Berger on Unsplash](https://unsplash.com/@8moments)
 - Contact icons: [Font Awesome](https://fontawesome.com/)
 - Fonts: [Google fonts](https://fonts.google.com/)
+- Box-shadow on portfolio page: [W3Schools.com](https://www.w3schools.com/css/css3_shadows_box.asp/)
