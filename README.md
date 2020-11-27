@@ -18,9 +18,7 @@ The application is accessible at https://abbynf.github.io/
 Contact me at abbynfrandsen@gmail.com
 
 ## Credits
-CSS library: [Bootstrap](https://getbootstrap.com/)
-Background photo: [Simon Berger on Unsplash](https://unsplash.com/@8moments)
-Contact icons: [Font Awesome](https://fontawesome.com/)
-Fonts: [Google fonts](https://fonts.google.com/)
-
-
+- CSS library: [Bootstrap](https://getbootstrap.com/)
+- Background photo: [Simon Berger on Unsplash](https://unsplash.com/@8moments)
+- Contact icons: [Font Awesome](https://fontawesome.com/)
+- Fonts: [Google fonts](https://fonts.google.com/)
