@@ -149,9 +149,20 @@ h4, p, a {
     border-radius: 10px;
 }
 
-/* .tech-heading {
-    
-} */
+.hrAbout {
+    height: 4px;
+    background-color: gray;
+    border-radius: 10px;
+    width: 85%;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.aboutHead {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
 
 @media only screen and (max-width: 668px) {
     h1 {
