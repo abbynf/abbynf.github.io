@@ -47,7 +47,7 @@ As soon as I learn Sass, I can add more sizes to by adding entries to the Sass m
     font-family: 'Dancing Script', sans-serif;
     /* My chosen margin is so large that Bootstrap's default classes aren't large enough.
     As soon as I learn Sass, I can add more sizes to by adding entries to the Sass map variable */
-    margin-top: 30%;
+    margin-top: 15%;
 }
 
 h5 {
@@ -101,11 +101,8 @@ h4, p, a {
     background: rgba(255, 255, 255, 0.8);
     padding: 30px;
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-/* .lists {
-    padding: 30px;
-} */
 
 .listContainer {
     margin: 5px;
@@ -124,6 +121,7 @@ h4, p, a {
     height: auto;
     border-radius: 50%;
     width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .portfolioButton {
@@ -172,7 +170,7 @@ h4, p, a {
 }
 
 .landingHead {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .aboutContainer {
@@ -198,9 +196,6 @@ h4, p, a {
     }
     .subHead {
         font-size: 1.5rem;
-    }
-    .tagline {
-        margin-top: 10%;
     }
     .aboutHead {
         font-size: 3rem;
