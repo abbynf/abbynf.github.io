@@ -45,26 +45,26 @@
       <div class="row">
         <div class="col">
 
-          <h1 class="text-white">Hello, I am <span class="name">Abby Jo Frandsen</span></h1>
+          <h1 class="text-white landingHead">Hello, I am <span class="name">Abby Jo Frandsen</span></h1>
 
         </div>
       </div>
     </header>
 
     <!-- Where I'm from and what I do -->
-    <main>
+    <section>
       <div class="row">
-        <div class="col, mx-auto">
-          <h2 class="mt-sm-5 text-white">A full stack developer in Salt Lake City, Utah</h2>
+        <div class="col mx-auto">
+          <h2 class="mt-sm-5 text-white subHead">A full stack developer in Salt Lake City, Utah</h2>
         </div>
       </div>
-    </main>
+    </section>
 
 
     <!-- My tenative brand, may change -->
     <section>
       <div class="row">
-        <div class="col, mx-auto">
+        <div class="col mx-auto">
           <h3 class="text-white text-center tagline">Beautiful applications with a human feel.</h3>
         </div>
       </div>
@@ -75,53 +75,47 @@
   <!-- About section =================== -->
 
   <hr class="hrAbout">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <header>
-          <h2 class="portHead aboutHead text-white text-center">About Me</h2>
-        </header>
-      </div>
-    </div>
-    <div class="row">
-      <!-- This div holds the picture -->
-      <div class="col-sm-8 opaque">
-        <article>
-          <!-- This div holds the bio -->
-          <div class="row">
-            <div class="col">
-              <h2 class="bioHead">My biography:</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col">
-              <p class="bio">
-                Full Stack Web Developer with a Bachelor's degree in psychology working towards a Full
-                Stack Web Development certificate. Participation in the bootcamp has enabled me to
-                develop a working knowledge of front-end and back-end technologies like HTML, CSS,
-                jQuery, JavaScript, and more. My Bachelor's degree helped me refine my organizational
-                and problem-solving skills as a lab manager for the behavioral psychology lab. I've
-                taken classes in mediation and social psychology to better communicate with my
-                teammates. I enjoy the problem-solving aspect of coding and can barely feel the hours
-                pass as I work with JavaScript.
+  <main class="px-5">
+    <div class="container aboutContainer mt-5">
 
-                I look forward to a career in full-stack development, creating applications designed
-                with psychological principles in mind.
-
-              </p>
-              <a href="assets/Resume.pdf" target="_blank">Click here to view my resume.</a>
-            </div>
-          </div>
-        </article>
-      </div>
-      <div class="col-md-4 m-auto">
-        <img class="headshot" src="./assets/brick-headshot.jpg" alt="My headshot">
-      </div>
-    </div>
-
-    <aside>
+      <!-- Row that holds picture and bio -->
       <div class="row">
-        <div class="col opaque lists">
+
+        <!-- This div holds the bio -->
+        <div class="col-lg-4">
+          <h2 class="portHead aboutHead text-white text-center">About Me</h2>
+
+        </div>
+
+
+        <div class="col-lg-8 opaque">
+          <p class="bio">
+            Full Stack Web Developer with a Bachelor's degree in psychology working towards a Full
+            Stack Web Development certificate. Participation in the bootcamp has enabled me to
+            develop a working knowledge of front-end and back-end technologies like HTML, CSS,
+            jQuery, JavaScript, and more. My Bachelor's degree helped me refine my organizational
+            and problem-solving skills as a lab manager for the behavioral psychology lab. I've
+            taken classes in mediation and social psychology to better communicate with my
+            teammates. I enjoy the problem-solving aspect of coding and can barely feel the hours
+            pass as I work with JavaScript.
+
+            I look forward to a career in full-stack development, creating applications designed
+            with psychological principles in mind.
+
+          </p>
+          <a href="assets/Resume.pdf" target="_blank">Click here to view my resume.</a>
+        </div>
+
+      </div>
+
+
+  </main>
+  <aside class="px-5 mb-5">
+    <div class="row mt-5">
+
+
+      <div class="col-sm-6 lists">
+        <div class="listContainer opaque pt-4">
           <h3>Technical skills</h3>
           <ul>
             <li>HTML</li>
@@ -129,25 +123,54 @@
             <li>Bootstrap</li>
             <li>Statistics</li>
             <li>JavaScript</li>
+            <li>jQuery</li>
             <li>SQL</li>
             <li>node.js</li>
+            <li>Inquirer</li>
+            <li>Express.js</li>
+            <li>Postman</li>
+            <li>MySQL</li>
+            <li>Sequelize</li>
+            <li>Handlebars.js</li>
+            <li>Model-View-Controller design pattern</li>
+            <li>MongoDB</li>
+            <li>Mongoose.js</li>
+            <li>Travis CI</li>
+            <li>Github and Git Bash</li>
           </ul>
-        </div>
-        <div class="col opaque lists">
-          <h3>Soft skills</h3>
-          <ul>
-            <li>Teamwork</li>
-            <li>Attention to detail</li>
-            <li>Communication</li>
-            <li>Problem-Solving</li>
-            <li>Adaptability</li>
-            <li>Leadership</li>
-            <li>Grant-Writing</li>
-          </ul>
-
         </div>
       </div>
-    </aside>
+
+      <div class="col-sm-6">
+        <div class="row">
+          <div class="col m-auto text-center pt-5">
+            <img class="headshot" src="./assets/brick-headshot.png" alt="My headshot">
+          </div>
+
+        </div>
+        <div class="row">
+
+          <div class="col lists">
+            <div class="listContainer opaque">
+              <h3>Soft skills</h3>
+              <ul>
+                <li>Teamwork</li>
+                <li>Attention to detail</li>
+                <li>Communication</li>
+                <li>Problem-Solving</li>
+                <li>Adaptability</li>
+                <li>Leadership</li>
+                <li>Grant-Writing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </aside>
+
   </div>
 
   <!-- Bootstrap JavaScript links -->

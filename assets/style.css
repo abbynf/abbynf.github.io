@@ -100,12 +100,16 @@ h4, p, a {
 .opaque {
     background: rgba(255, 255, 255, 0.8);
     padding: 30px;
-    padding-bottom: 0px;
     border-radius: 10px;
 }
 
-.lists {
-    margin: 25px 30px 60px 0px;
+/* .lists {
+    padding: 30px;
+} */
+
+.listContainer {
+    margin: 5px;
+    height: 100%;
 }
 
 .sticky {
@@ -117,6 +121,9 @@ h4, p, a {
 
 .headshot {
     max-width: 315px;
+    height: auto;
+    border-radius: 50%;
+    width: 100%;
 }
 
 .portfolioButton {
@@ -159,9 +166,17 @@ h4, p, a {
 }
 
 .aboutHead {
-    font-size: 4rem;
+    font-size: 5rem;
     margin-bottom: 20px;
     margin-top: 50px;
+}
+
+.landingHead {
+    margin-top: 10%;
+}
+
+.aboutContainer {
+    max-width: 100%;
 }
 
 @media only screen and (max-width: 668px) {
@@ -175,11 +190,23 @@ h4, p, a {
         margin: 50px;
         text-align: center;
     }
-    h3 {
-        margin-top: 10%;
-        padding: 20px;
-    }
     #pushDown {
         margin-top: 100px;
+    }
+    .landingHead {
+        font-size: 2.5rem;
+    }
+    .subHead {
+        font-size: 1.5rem;
+    }
+    .tagline {
+        margin-top: 10%;
+    }
+    .aboutHead {
+        font-size: 3rem;
+        padding-bottom: 20px;
+    }
+    .bio {
+        font-size: 1rem;
     }
 }
