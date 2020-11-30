@@ -177,6 +177,21 @@ h4, p, a {
     max-width: 100%;
 }
 
+.carousel-indicators {
+    position: static;
+}
+
+.carousel-caption {
+    position: static;
+    padding-top: 0px;
+}
+
+.carouselh5 {
+    color: black;
+    text-shadow: none;
+    font-size: 1.5rem;
+}
+
 @media only screen and (max-width: 668px) {
     h1 {
         font-size: 2rem;
