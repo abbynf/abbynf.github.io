@@ -1,0 +1,54 @@
+.card {
+    background-color: darkgray;
+    margin-bottom: 20px;
+}
+
+h1.portHead {
+    font-family:'Raleway@weight:700', sans-serif;
+    /* My chosen margin is so large that Bootstrap's default classes aren't large enough.
+    As soon as I learn Sass, I can add more sizes to by adding entries to the Sass map variable */
+    margin-top: 15%;
+    margin-bottom: 100px;
+    font-size: 5rem;
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 2px 2px black;
+    color: white;
+    font-size: 2em;
+    margin-top: 10px
+}
+
+.portfolioButton {
+    background-color: #303048;
+    color: white;
+}
+
+.portfolioButton:hover {
+    color: gray;
+}
+
+.card-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-img-top {
+    border: gray solid 1px;
+}
+
+.card-opaque {
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 5px 5px 7px grey, -5px 5px 7px grey;
+    padding: 13px;
+    border-radius: 5px;
+}
+
+.portHr {
+    height: 2px;
+    background-color: #3d3d3d;
+    border-radius: 10px;
+    width: 85%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

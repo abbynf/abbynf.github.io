@@ -1,0 +1,13 @@
+.fa {
+    text-shadow: 2px 2px black;
+    font-size: 100px;
+    color: white;
+}
+
+.fa:hover {
+    color: #cecece
+}
+
+.fa:active {
+    text-shadow: none;
+}
