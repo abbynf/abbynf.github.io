@@ -7,13 +7,21 @@ This application introduces my style, my projects, and how to contact me. The la
 ![Screenshot of the landing page](assets/img/landingpage.png)
 ![Screenshot of contact page](assets/img/contact-me.png)
 
-Technologies used:
+## Instructions
+1. Scroll down on the home page to view my background and technical skills. 
+2. Click the portfolio link in the navigation menu to view my projects as a full-stack developer. 
+3. Click on the 'Access application' button to view the deployed site of the project. 
+4. Click on the 'View repository' button to view the code repository on Github.
+5. On the contact page, click the icon to contact me through that method.
+
+## Technologies used:
 - HTML
 - CSS
 - Bootstrap
 
-The application is accessible at https://abbynf.github.io/
+The application is accessible at https://abbynf.github.io/web-developer-portfolio/
 
+## Contact me
 Contact me at abbynfrandsen@gmail.com
 
 ## Credits
